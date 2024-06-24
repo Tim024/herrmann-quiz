@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Build directory
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# React Native
+.expo/
+.expo-shared/
+
+# Miscellaneous
+.DS_Store
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# WebStorm
+.idea/
+*.iml
