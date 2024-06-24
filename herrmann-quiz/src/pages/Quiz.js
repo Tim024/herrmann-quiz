@@ -30,7 +30,7 @@ const Quiz = () => {
 
     const response = {
       question: questions[currentQuestion].question,
-      answer: `Slider at ${sliderValue}%`,
+      answer: questions[currentQuestion].answers[sliderValue > 50 ? 1 : 0].text,
       effect: interpolatedEffect
     };
 

@@ -1,5 +1,7 @@
 # Brain Dominance Quiz
 
+Hosted at: https://white-kati-68.tiiny.site/
+
 This project is a web application that helps users determine their dominant brain quadrant according to the Herrmann Brain Model. The quiz presents a series of questions, and based on the user's answers, it calculates their tendency towards four different thinking styles: Analytical, Organizational, Interpersonal, and Imaginative.
 
 ## Table of Contents
