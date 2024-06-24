@@ -1,0 +1,66 @@
+/* Button Styling */
+button {
+  background-color: #007bff; /* Blue color for the button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Question Header Styling */
+h2.question-header {
+  font-size: 18px;
+  color: #666;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Homepage Content Styling */
+div.homepage-content {
+  text-align: center;
+  padding: 50px 20px;
+  color: #333;
+  font-size: 18px;
+}
+
+/* Result Text Styling */
+p.result-text {
+  font-size: 20px;
+  color: #28a745; /* Green color for results */
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Chart Container Styling */
+.chart-container {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background: url("./asset/brainmodel.png"); /* Set the path to your image */
+  background-size: 100% 100%; /* Stretches the image to fill the container */
+    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* General Element Centering */
+.centered-text {
+  text-align: center;
+  width: 100%;
+}
